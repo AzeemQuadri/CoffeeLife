@@ -384,50 +384,13 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
+  * {
+    z-index: 1;
+    background-color: #fff;
+    display: none;
+  }
   body {
-    overflow-x: hidden;
-    display: none;
-  }
-  .menu {
-    display: none;
-  }
-  .header {
-    height: 50px;
-  }
-  .logo img {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: auto;
-    height: 50px;
-  }
-  .overlay {
-    width: auto;
-    height: 98vh;
-  }
-  span {
-    width: 70%;
-  }
-  .quote {
-    max-height: 50px;
-  }
-  .quote h1 {
-    font-size: 300%;
-    width: 50%;
-    position: absolute;
-    left: 0px;
-  }
-  .allcard {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    z-index: -1;
   }
 }
 /*# sourceMappingURL=style.css.map */
