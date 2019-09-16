@@ -26,10 +26,11 @@ body {
 }
 
 .logo img {
-  width: 270px;
-  height: 85px;
+  width: 350px;
+  height: 88px;
   position: relative;
   left: 130px;
+  z-index: 5;
 }
 
 ul {
@@ -134,8 +135,8 @@ span {
 }
 
 .allbtn {
-  position: relative;
-  left: 250px;
+  position: absolute;
+  left: 920px;
   top: 8px;
 }
 
